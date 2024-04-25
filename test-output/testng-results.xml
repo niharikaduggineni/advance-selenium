@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[User is able to open empty browser]]>
+    </line>
+    <line>
+      <![CDATA[User is able to maximize the browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-04-24T06:47:45 GMT-07:00" name="Default suite" finished-at="2024-04-24T06:47:53 GMT-07:00" duration-ms="7898">
+    <groups>
+    </groups>
+    <test started-at="2024-04-24T06:47:45 GMT-07:00" name="Default test" finished-at="2024-04-24T06:47:53 GMT-07:00" duration-ms="7898">
+      <class name="testng_project.tc_demo_test_clickonwhishlist">
+        <test-method is-config="true" signature="browsersetUp()[pri:0, instance:testng_project.tc_demo_test_clickonwhishlist@61862a7f]" started-at="2024-04-24T06:47:45 GMT-07:00" name="browsersetUp" finished-at="2024-04-24T06:47:53 GMT-07:00" duration-ms="7831" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getCurrentUrl()" because "utility.utilitymethods.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getCurrentUrl()" because "utility.utilitymethods.driver" is null
+at utility.utilitymethods.getcurrenturl(utilitymethods.java:18)
+at testng_project.baeclasstwo.browsersetUp(baeclasstwo.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[User is able to open empty browser]]>
+            </line>
+            <line>
+              <![CDATA[User is able to maximize the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browsersetUp -->
+        <test-method is-config="true" signature="userLogin()[pri:0, instance:testng_project.tc_demo_test_clickonwhishlist@61862a7f]" started-at="2024-04-24T06:47:53 GMT-07:00" name="userLogin" finished-at="1969-12-31T16:00:00 GMT-08:00" duration-ms="-1713966473508" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method signature="varifyThatUserIsAbleToClickOnwishlist()[pri:0, instance:testng_project.tc_demo_test_clickonwhishlist@61862a7f]" started-at="2024-04-24T06:47:53 GMT-07:00" name="varifyThatUserIsAbleToClickOnwishlist" finished-at="2024-04-24T06:47:53 GMT-07:00" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getCurrentUrl()" because "utility.utilitymethods.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getCurrentUrl()" because "utility.utilitymethods.driver" is null
+at utility.utilitymethods.getcurrenturl(utilitymethods.java:18)
+at testng_project.baeclasstwo.browsersetUp(baeclasstwo.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyThatUserIsAbleToClickOnwishlist -->
+        <test-method is-config="true" signature="userLogOut()[pri:0, instance:testng_project.tc_demo_test_clickonwhishlist@61862a7f]" started-at="2024-04-24T06:47:53 GMT-07:00" name="userLogOut" finished-at="1969-12-31T16:00:00 GMT-08:00" duration-ms="-1713966473517" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogOut -->
+        <test-method is-config="true" signature="allwindowclose()[pri:0, instance:testng_project.tc_demo_test_clickonwhishlist@61862a7f]" started-at="2024-04-24T06:47:53 GMT-07:00" name="allwindowclose" finished-at="1969-12-31T16:00:00 GMT-08:00" duration-ms="-1713966473517" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allwindowclose -->
+      </class> <!-- testng_project.tc_demo_test_clickonwhishlist -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

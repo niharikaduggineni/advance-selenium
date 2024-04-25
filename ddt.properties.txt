@@ -1,0 +1,4 @@
+url=https://demowebshop.tricentis.com/
+uname="niharikaduggineni@gmail.com"
+psw="Niharika@123
+
