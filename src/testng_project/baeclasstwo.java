@@ -32,7 +32,7 @@ public class baeclasstwo {
 		Reporter.log("User is able to open empty browser", true);
 		driver.manage().window().maximize();
 		Reporter.log("User is able to maximize the browser", true);
-		//driver.get(utilityclass.redthedatefrompropfile(constantvalue.profilepath,"url");
+		driver.get(uc.redthedatefrompropfile(constantvalue.profilepath,"url"));
 		String currentUrl = utilitymethods.getcurrenturl();
 		soft.assertEquals( actualURl,currentUrl);
 	}

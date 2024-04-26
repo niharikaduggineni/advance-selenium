@@ -20,7 +20,7 @@ public class utilityclass {
 	 * @return String
 	 * @throws Throwable
 	 */
-public static String redthedatefrompropfile(String path, String key) throws Throwable {
+public  String redthedatefrompropfile(String path, String key) throws Throwable {
 	File file = new File(path);
 	FileInputStream fis = new FileInputStream(file);
 	Properties pro = new Properties();
